@@ -1,0 +1,293 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: Bower;
+  src: url(/fonts/Bower-Bold.woff2);
+  font-weight: bold;
+}
+@font-face {
+  font-family: EB Garamond Bold;
+  src: url(/fonts/EBGaramond-Bold.ttf);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: EB Garamond Semibold;
+  src: url(/fonts/EBGaramond-SemiBold.ttf);
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: EB Garamond Medium;
+  src: url(/fonts/EBGaramond-Medium.ttf);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: EB Garamond Regular;
+  src: url(/fonts/EBGaramond-Regular.ttf);
+  font-weight: 400;
+}
+
+p,
+ul,
+text,
+a,
+tr,
+td,
+li,
+ol,
+ul {
+  font-weight: revert;
+  margin: revert;
+  padding: revert;
+  color: black;
+}
+
+body {
+  background: #fcf8ef;
+  cursor: crosshair;
+  overflow-y: scroll;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none;
+  background-size: 40px 40px;
+}
+
+h1 {
+  font-family: EB Garamond Bold;
+  text-align: center;
+  font-size: 6rem;
+  margin-bottom: 0.3rem;
+}
+
+h2 {
+  font-family: EB Garamond Semibold;
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 0.3rem;
+  text-decoration: underline;
+}
+
+h3 {
+  font-family: EB Garamond Semibold;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 0.3rem;
+}
+
+h4 {
+  font-family: EB Garamond Regular;
+  font-size: 1.75rem;
+  line-height: 2rem;
+  margin-bottom: 0.2rem;
+  margin-top: 1rem;
+}
+
+p,
+li {
+  font-family: "EB Garamond Regular";
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  counter-increment: section;
+}
+ol {
+  list-style: none;
+  counter-reset: li;
+}
+
+ol li {
+  counter-increment: li;
+}
+ol li::before {
+  content: counter(li);
+  color: black;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1.5em;
+  margin-right: 0.5em;
+  text-align: right;
+  direction: rtl;
+}
+
+ul {
+  list-style: disc;
+  margin-left: 1rem;
+  font-size: 1rem;
+}
+
+ul > li {
+  list-style: disc;
+  margin-left: 1rem;
+}
+
+strong {
+  font-family: San Regular;
+}
+
+a {
+  font-family: San Light;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  color: inherit;
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+button {
+  background: #fcf8ef;
+  color: black;
+  border: 2px black solid;
+}
+
+button:hover {
+  background: black;
+  border: 2px black solid;
+}
+
+button:hover > a > p {
+  color: #fcf8ef;
+}
+.titleSection {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 1rem;
+}
+
+.timeSection {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.column {
+  background: #f2f7f4;
+  transform: rotate(10px);
+  width: 27vw;
+  height: auto;
+  border: 1px black solid;
+  border-radius: 3px;
+  padding: 2rem;
+  margin: 1rem;
+}
+
+.column:hover {
+  background: #e1e6e3;
+  margin-left: px(-20);
+  transition: all 0.3s ease;
+}
+
+.column::-webkit-scrollbar {
+  display: none;
+}
+
+.past {
+  margin-top: 4rem;
+}
+
+.future {
+  margin-top: -4rem;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 3px;
+  margin: 1em 0;
+}
+
+hr {
+  width: 25%;
+  margin: 4em auto;
+  height: 2px;
+  border-radius: 1px;
+  border-width: 0;
+  color: black;
+  background-color: black;
+}
+
+code {
+  font-family: var(--font-mono);
+  font-size: 0.85em;
+  padding: 0.15em 0.3em;
+  border-radius: 5px;
+  background: var(--lightgray);
+}
+
+li {
+  font-family: "San Light";
+  font-size: 1.25em;
+}
+
+blockquote {
+  margin: 2em 2em;
+  font-family: "San Light";
+  font-size: 1.7em;
+  padding-left: 1em;
+  transition: border-color 0.2s ease;
+}
+
+blockquote p {
+  display: inline;
+}
+
+blockquote:before {
+  color: #ccc;
+  content: "“";
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
+pre {
+  white-space: pre-wrap;
+  font-size: 1.5em;
+  font-family: "San Light";
+  padding: 1.5em;
+  border-radius: 3px;
+  overflow-x: scroll;
+  background: #f5f5f5;
+}
+
+code {
+  font-family: "San Light";
+  font-size: 0.85em;
+  border-radius: 5px;
+}
+
+sup {
+  margin: -2em 0;
+  font-size: 0.5em;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    overflow-y: scroll;
+  }
+  .timeSection {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .column {
+    width: auto;
+    height: auto;
+  }
+
+  .past,
+  .present,
+  .future {
+    margin-top: 1rem;
+  }
+}
