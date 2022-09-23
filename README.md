@@ -1,6 +1,8 @@
-# Home
+# 🏠 Home
 
 This is a site created in F22 as a landing page for Socratica
+
+![Landing Page](https://raw.githubusercontent.com/Socratica-Org/website/main/public/landing.png)
 
 ## Getting Started
 
