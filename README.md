@@ -2,7 +2,7 @@
 
 This is a site created in F22 as a landing page for Socratica
 
-![Landing Page](https://raw.githubusercontent.com/Socratica-Org/website/main/public/landing.png)
+![Landing Page](https://github.com/ansonyuu/socratica/blob/dfb7fcf15b4923d939748a15a4bed5a2f6d266f1/public/landing.png)
 
 ## Getting Started
 

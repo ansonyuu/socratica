@@ -7,8 +7,8 @@ const Home: NextPage = () => {
       <div className="w-[40vw] flex flex-col justify-center items-center content-between text-center">
         <h1>Socratica</h1>
         <h4>
-          A collective of makers, artists, engineers, designers, writers, poets,
-          and everything in between. We meet weekly.
+          An open collective of makers, artists, engineers, designers, writers,
+          poets, and everything in between. We meet weekly.
         </h4>
 
         <button className="m-10 pr-10 pl-10">
