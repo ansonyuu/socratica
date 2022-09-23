@@ -9,12 +9,12 @@ const Home: NextPage = () => {
         <h4>What is this?</h4>
         <p>
           Socratica is a live co-working session hosted every Sunday to bring
-          together Waterloo's builders, creative technologists, budding
-          founders, and more to work on their passion projects. It's time carved
-          out for deep work, giving you space to *finally* work on the project
-          you've always been itching to start. Demo, eat food, receive feedback,
-          find inspiration in new friends, and explore your intellectual
-          curiosities &#60;3
+          together Waterloo&apos;s builders, creative technologists, budding
+          founders, and more to work on their passion projects. It&apos;s time
+          carved out for deep work, giving you space to *finally* work on the
+          project you&apos;ve always been itching to start. Demo, eat food,
+          receive feedback, find inspiration in new friends, and explore your
+          intellectual curiosities &#60;3
         </p>
         <h4>Who is it for?</h4>
         <p>
