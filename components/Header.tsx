@@ -12,7 +12,10 @@ function Header(props: any) {
         <title>Socratica</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="flex flex-row justify-end child:pr-10 child:pt-10 child:pb-10">
+      <div className="flex flex-row justify-end child:pr-5 child:pt-10 child:pb-10 pr-5">
+        <Link href="/">
+          <a>Home</a>
+        </Link>
         <Link href="/about">
           <a>About</a>
         </Link>

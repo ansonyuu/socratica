@@ -149,7 +149,7 @@ button:hover {
   border: 2px black solid;
 }
 
-button:hover > a > p {
+button:hover > p {
   color: #fcf8ef;
 }
 .titleSection {
@@ -201,7 +201,7 @@ button:hover > a > p {
 img {
   max-width: 100%;
   border-radius: 3px;
-  margin: 1em 0;
+  margin: 1em 0 -60vw 0;
 }
 
 hr {

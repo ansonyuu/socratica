@@ -3,28 +3,19 @@ import Link from "next/link";
 
 const Home: NextPage = () => {
   return (
-    <main className="h-full flex flex-col items-center ">
-      <div className="w-[40vw] flex flex-col justify-center items-center content-between text-center">
-        <h1>Socratica</h1>
-        <h4>
-          An open collective of makers, artists, engineers, designers, writers,
-          poets, and everything in between. We meet weekly.
-        </h4>
+    <div className="w-[60vw] flex flex-col justify-center items-center content-between text-center">
+      <h1 className="text-6xl md:text-8xl">Socratica</h1>
+      <h4>
+        An open collective of makers, artists, engineers, designers, writers,
+        poets, and everything in between. We meet weekly.
+      </h4>
 
-        <button className="m-10 pr-10 pl-10">
-          <a
-            className="no-underline"
-            href="https://airtable.com/shryeWTj4hnFSbFnz"
-          >
-            <p className="italic">See you soon :)</p>
-          </a>
+      <Link href="https://airtable.com/shryeWTj4hnFSbFnz">
+        <button className="m-10 pr-5 md:pr-10 pl-5 md:pl-10 no-underline">
+          <p className="italic">See you soon :)</p>
         </button>
-      </div>
-      <img
-        className="rotating w-[100vw] h-auto inline-block"
-        src="/orbit-full.png"
-      />
-    </main>
+      </Link>
+    </div>
   );
 };
 

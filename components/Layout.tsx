@@ -8,11 +8,17 @@ type Props = {
 export default function Layout({ children }: Props) {
   const router = useRouter();
   return (
-    <div className="h-[100vh] w-[100vw] flex align-center justify-center">
+    <div className="md:h-[100vh] flex align-center justify-center">
       <div className="m-10 border-2 border-black overflow-hidden">
         <Header />
-        {children}
-        {/* <Footer /> */}
+
+        <main className="h-full flex flex-col items-center">
+          {children}
+          <img
+            className="rotating w-[100vw] h-auto inline-block"
+            src="/orbit-full.png"
+          />
+        </main>
       </div>
     </div>
   );
