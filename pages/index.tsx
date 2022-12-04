@@ -9,12 +9,18 @@ const Home: NextPage = () => {
         An open collective of makers, artists, engineers, designers, writers,
         poets, and everything in between. We meet weekly.
       </h4>
-
-      <Link href="https://airtable.com/shryeWTj4hnFSbFnz">
-        <button className="m-10 pr-5 md:pr-10 pl-5 md:pl-10 no-underline">
-          <p className="italic">See you soon :)</p>
-        </button>
-      </Link>
+      <div>
+        <Link href="https://airtable.com/shryeWTj4hnFSbFnz">
+          <button className="m-10 pr-5 md:pr-10 pl-5 md:pl-10 no-underline">
+            <p className="italic">Attend (Waterloo)</p>
+          </button>
+        </Link>
+        <Link href="https://airtable.com/shrPqKZdL5aLqGeul">
+          <button className="m-10 pr-5 md:pr-10 pl-5 md:pl-10 no-underline">
+            <p className="italic">Start a chapter</p>
+          </button>
+        </Link>
+      </div>
     </div>
   );
 };
