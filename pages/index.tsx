@@ -15,6 +15,11 @@ const Home: NextPage = () => {
             <p className="italic">Attend (Waterloo)</p>
           </button>
         </Link>
+        <Link href="https://lu.ma/socratica-nyc">
+          <button className="m-10 pr-5 md:pr-10 pl-5 md:pl-10 no-underline">
+            <p className="italic">Attend (NYC)</p>
+          </button>
+        </Link>
         <Link href="https://airtable.com/shrPqKZdL5aLqGeul">
           <button className="m-10 pr-5 md:pr-10 pl-5 md:pl-10 no-underline">
             <p className="italic">Start a chapter</p>
