@@ -8,22 +8,21 @@ const Home: NextPage = () => {
       <h4>Standing on the shoulders of friends and giants</h4>
 
       <p className="">
-        As a place of creative vibrance or simply rest, this community is a warm
-        place for many. A few nods to those who make the magic possible.
+        As a place of creative vibrance or simply rest, this community is a warm place for many. <br />
+        A few nods to those who make the magic possible.
         <br />
         <br />
-        Thank you to Adi and Aman, for laying the groundwork. <br />
+        Thank you to Adi, Aman, Anson, Jonathan, Joss, and Mathurah for laying the groundwork. <br />
         <br />
-        Thank you to the hosts like Jonathan, Mathurah, Anson, Joss, Krish,
-        Daekun, and more for carrying on the logistical torch.
+        Thank you to hosts like Aadil, Ananya, Daekun, Dhvani, Dhruv, Jaclyn, Krish, Maryam, Naomie, 
+        Rishi and more for continuing the vision and carrying the logistical torch.
         <br />
         <br />
         Thank you to the founding fellows and current attendees who consistently
-        give their time and energy to the community.
+        give their time and energy to the community. You make us better.
         <br /> <br />
-        Additionally, much gratitude to community partners like Aide, Operand,
-        Aadil, Eigenspace, and Contrary Capital for their generous financial and
-        tactical support.
+        Finally, thank you to community partners like Aide, Operand,
+        Eigenspace, and Contrary Capital for their generous financial, tactical, and emotional support.
       </p>
     </div>
   );
